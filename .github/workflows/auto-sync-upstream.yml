@@ -17,4 +17,4 @@ jobs:
         run: |
           gh repo sync ${{ github.repository }} \
             --source KelvinTegelaar/CIPP-API \
-            --branch master
+            --branch main
